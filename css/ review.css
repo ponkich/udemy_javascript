@@ -1,3 +1,13 @@
 .parent {
   color: blue;
+}
+.parent > .element {
+  color: purple;
+}
+.parent > .element.second-child {
+  color: black;
+}
+
+.element {
+  color: red;
 }/*# sourceMappingURL= review.css.map */

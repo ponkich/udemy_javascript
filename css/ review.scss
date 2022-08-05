@@ -1,3 +1,15 @@
 .parent {
     color: blue;
+
+    // 大なりを入れると親要素の中の子要素のelementになり大なりを入れずドットだけを入れると親要素野中にある全体のelementにcssがかかる
+    & > .element {
+        color: purple;
+
+        &.second-child{
+            color: black;
+        }
+    }
+}
+.element {
+    color: red;
 }
