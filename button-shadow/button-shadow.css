@@ -13,5 +13,5 @@
   transition: all 0.5s;
 }
 .btn.float:hover {
-  box-shadow: 0 0 10px black;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=button-shadow.css.map */
