@@ -40,7 +40,7 @@
   border-radius: 0.5em;
   box-shadow: 0.15em 0.15em black;
 }
-.try :hover {
-  transform: translate(0.2em, 0.2em);
+.try .solid:hover {
+  transform: translate(0.15em, 0.15em);
   box-shadow: none;
 }/*# sourceMappingURL=try.css.map */
